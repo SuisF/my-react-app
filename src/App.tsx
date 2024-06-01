@@ -46,9 +46,11 @@ function App() {
           <Container title={"Summary"}>
             <Summary tasks={tasks} />
           </Container>
+
           <Container>
             <Input handleSubmit={handleSubmit} />
           </Container>
+
           <Container title={"Tasks"}>
             <Tasks
               tasks={tasks}
